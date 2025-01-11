@@ -1,4 +1,4 @@
-package org.capitole.inditex.adapter.out.persistence.repository;
+package org.capitole.inditex.adapter.out.persistence.entityrepository;
 
 import org.capitole.inditex.adapter.out.persistence.model.PriceEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
