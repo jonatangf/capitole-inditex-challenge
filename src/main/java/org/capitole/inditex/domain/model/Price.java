@@ -5,6 +5,7 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.math.BigDecimal;
 import java.time.Instant;
 
 @NoArgsConstructor
@@ -16,6 +17,10 @@ public class Price {
     private Instant startDate;
     private Instant endDate;
     private Integer priority;
-    private Double price;
+    private BigDecimal price;
     private String currency;
+    private Brand brand;
+    private Product product;
+    private Integer priceList;
+
 }

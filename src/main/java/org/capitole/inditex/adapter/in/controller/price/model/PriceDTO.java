@@ -5,14 +5,17 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.time.Instant;
+import java.math.BigDecimal;
 
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
 @Data
-public class SearchPriceRequestBody {
+public class PriceDTO {
     private Long brandId;
     private Long productId;
-    private Instant effectiveDate;
+    private Integer priceList;
+    private String startDate;
+    private String endDate;
+    private BigDecimal price;
 }

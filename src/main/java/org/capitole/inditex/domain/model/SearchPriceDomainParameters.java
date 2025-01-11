@@ -1,4 +1,4 @@
-package org.capitole.inditex.application.model;
+package org.capitole.inditex.domain.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -11,7 +11,7 @@ import java.time.Instant;
 @AllArgsConstructor
 @Builder
 @Data
-public class SearchPriceApplicationParameters {
+public class SearchPriceDomainParameters {
     private Long brandId;
     private Long productId;
     private Instant effectiveDate;
